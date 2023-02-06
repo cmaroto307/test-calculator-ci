@@ -28,5 +28,5 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: |
-          ${{ secrets.DOCKERHUB_USERNAME }}/test-apache-ci:latest
-          ${{ secrets.DOCKERHUB_USERNAME }}/test-apache-ci:${{ github.sha }}
+          ${{ secrets.DOCKERHUB_USERNAME }}/test-calculator-ci:latest
+          ${{ secrets.DOCKERHUB_USERNAME }}/test-calculator-ci:${{ github.sha }}
